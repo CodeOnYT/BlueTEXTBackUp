@@ -51,6 +51,12 @@
 <b:if cond='!data:view.isLayoutMode'>
 <!-- Theme CSS Style -->
 <b:skin version='1.0.0'><![CDATA[/*
+-----------------------------------------------
+Theme Name: BlueTEXT.in
+Version: 1.1
+Designer: Tulsiram Methre
+Blog: https://www.bluetext.in/
+----------------------------------------------- */ 
 
 /*
 <!-- Variable definitions -->
