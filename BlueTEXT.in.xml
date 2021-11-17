@@ -51,12 +51,6 @@
 <b:if cond='!data:view.isLayoutMode'>
 <!-- Theme CSS Style -->
 <b:skin version='1.0.0'><![CDATA[/*
------------------------------------------------
-Theme Name: BlueTEXT.in
-Version: 1.1
-Designer: Tulsiram Methre
-Blog: https://www.bluetext.in/
------------------------------------------------ */ 
 
 /*
 <!-- Variable definitions -->
@@ -3355,53 +3349,10 @@ var noThumbnail = "https://blogger.googleusercontent.com/img/a/AVvXsEj_A0cO-Ej4N
 </b:includable>
             </b:widget>
           </b:section>
-          <b:section cond='data:view.isPost' id='supermag-pro-main-after-ad' maxwidgets='1' name='Post ADS 2' showaddelement='yes'>
-            <b:widget id='HTML2' locked='false' title='Disqus for mundodosotakus-1' type='HTML' version='2' visible='false'>
-              <b:widget-settings>
-                <b:widget-setting name='content'><![CDATA[<!-- Disqus Widget -->]]></b:widget-setting>
-              </b:widget-settings>
-              <b:includable id='main'>
-<script type='text/javascript'>
-var disqus_shortname = &#39;mundodosotakus-1&#39;;
-var disqus_blogger_current_url = &quot;<data:blog.canonicalUrl/>&quot;;
-if (!disqus_blogger_current_url.length) {
-disqus_blogger_current_url = &quot;<data:blog.url/>&quot;;
-}
-var disqus_blogger_homepage_url = &quot;<data:blog.homepageUrl/>&quot;;
-var disqus_blogger_canonical_homepage_url = &quot;<data:blog.canonicalHomepageUrl/>&quot;;
-</script>
-<b:if cond='data:blog.pageType == &quot;item&quot;'>
-<style type='text/css'>
-#comments {display:none;}
-</style>
-<script type='text/javascript'>
-(function() {
-    var bloggerjs = document.createElement(&#39;script&#39;);
-    bloggerjs.type = &#39;text/javascript&#39;;
-    bloggerjs.async = true;
-    bloggerjs.src = &#39;//&#39; + disqus_shortname + &#39;.disqus.com/blogger_item.js&#39;;
-    (document.getElementsByTagName(&#39;head&#39;)[0] || document.getElementsByTagName(&#39;body&#39;)[0]).appendChild(bloggerjs);
-})();
-</script>
-</b:if>
-<style type='text/css'>
-.post-comment-link { visibility: hidden; }
-</style>
-<script type='text/javascript'>
-(function() {
-var bloggerjs = document.createElement(&#39;script&#39;);
-bloggerjs.type = &#39;text/javascript&#39;;
-bloggerjs.async = true;
-bloggerjs.src = &#39;//&#39; + disqus_shortname + &#39;.disqus.com/blogger_index.js&#39;;
-(document.getElementsByTagName(&#39;head&#39;)[0] || document.getElementsByTagName(&#39;body&#39;)[0]).appendChild(bloggerjs);
-})();
-</script>
-</b:includable>
-            </b:widget>
-          </b:section>
+          <b:section cond='data:view.isPost' id='supermag-pro-main-after-ad' maxwidgets='1' name='Post ADS 2' showaddelement='yes'/>
         </b:tag>
         <b:section cond='data:view.isLayoutMode or (data:view.isPost and (data:widgets.HTML any w =&gt; w.sectionId == &quot;supermag-pro-related-posts&quot;))' id='supermag-pro-related-posts' maxwidgets='1' name='Related Posts' showaddelement='yes'>
-          <b:widget id='HTML101' locked='true' title='Postagens Relacionadas' type='HTML' visible='true'>
+          <b:widget id='HTML101' locked='true' title='Replated Post' type='HTML' visible='true'>
             <b:widget-settings>
               <b:widget-setting name='content'>$results={3}</b:widget-setting>
             </b:widget-settings>
@@ -3411,7 +3362,7 @@ bloggerjs.src = &#39;//&#39; + disqus_shortname + &#39;.disqus.com/blogger_index
           </b:widget>
         </b:section>
         <b:section cond='data:view.isLayoutMode or (data:view.isPost and (data:widgets any w =&gt; w.sectionId == &quot;supermag-pro-post-footer-ads&quot;))' id='supermag-pro-post-footer-ads' maxwidgets='1' name='Post ADS 3' showaddelement='yes'>
-          <b:widget id='HTML1' locked='false' title='Anuncio do Rodapé' type='HTML' visible='true'>
+          <b:widget id='HTML1' locked='false' title='Ads' type='HTML' visible='true'>
             <b:widget-settings>
               <b:widget-setting name='content'>&lt;script async src=&quot;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
 &lt;!-- bluetextindia_sidebar_AdSense2_1x1_as --&gt;
@@ -3434,79 +3385,73 @@ bloggerjs.src = &#39;//&#39; + disqus_shortname + &#39;.disqus.com/blogger_index
       <!-- Sidebar Wrapper -->
       <aside id='sidebar-wrapper'>
         <b:section class='sidebar supermag-pro-widget-ready' id='sidebar' name='Sidebar' showaddelement='yes'>
-          <b:widget id='HTML12' locked='false' title='' type='HTML' visible='false'>
+          <b:widget id='HTML2' locked='false' title='Donate Us' type='HTML' visible='true'>
             <b:widget-settings>
-              <b:widget-setting name='content'>&lt;script src=&quot;https://apps.elfsight.com/p/platform.js&quot; defer&gt;&lt;/script&gt;
-&lt;div class=&quot;elfsight-app-0b137bd0-3fad-40ba-b3da-3a61758ece2d&quot;&gt;&lt;/div&gt;</b:widget-setting>
+              <b:widget-setting name='content'><![CDATA[<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#2859e0', 'R6R222PAC');kofiwidget2.draw();</script>]]></b:widget-setting>
             </b:widget-settings>
             <b:includable id='main'>
       <b:include name='html-content'/>
     </b:includable>
           </b:widget>
-          <b:widget id='Subscribe1' locked='false' title='21' type='Subscribe' visible='false'>
+          <b:widget id='HTML12' locked='false' title='Support US' type='HTML' visible='true'>
+            <b:widget-settings>
+              <b:widget-setting name='content'><![CDATA[<a href="https://www.patreon.com/bePatron?u=51702866" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>]]></b:widget-setting>
+            </b:widget-settings>
             <b:includable id='main'>
-  <b:include name='widget-title'/>
-  <b:include name='content'/>
-</b:includable>
-            <b:includable id='content'>
+      <b:include name='html-content'/>
+    </b:includable>
+          </b:widget>
+          <b:widget id='HTML3' locked='false' title='CodeOn Podcast' type='HTML' visible='true'>
+            <b:widget-settings>
+              <b:widget-setting name='content'><![CDATA[<iframe src="https://anchor.fm/codeon/embed" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>]]></b:widget-setting>
+            </b:widget-settings>
+            <b:includable id='main'>
+      <b:include name='html-content'/>
+    </b:includable>
+          </b:widget>
+          <b:widget id='HTML13' locked='false' title='Youtube' type='HTML' visible='true'>
+            <b:widget-settings>
+              <b:widget-setting name='content'>&lt;script src=&quot;https://apps.elfsight.com/p/platform.js&quot; defer&gt;&lt;/script&gt;
+&lt;div class=&quot;elfsight-app-1a105341-c219-4ee4-ac21-ad7281c36d6b&quot;&gt;&lt;/div&gt;
+&lt;script src=&#39;https://storage.ko-fi.com/cdn/scripts/overlay-widget.js&#39;&gt;&lt;/script&gt;</b:widget-setting>
+            </b:widget-settings>
+            <b:includable id='main'>
+      <b:include name='html-content'/>
+    </b:includable>
+          </b:widget>
+          <b:widget id='AdSense1' locked='false' title='' type='AdSense' version='2' visible='true'>
+            <b:widget-settings>
+              <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
+              <b:widget-setting name='style.textcolor'>#ffffff</b:widget-setting>
+              <b:widget-setting name='style.layout'>300x250</b:widget-setting>
+              <b:widget-setting name='style.bordercolor'>#ffffff</b:widget-setting>
+              <b:widget-setting name='style.urlcolor'>#ffffff</b:widget-setting>
+              <b:widget-setting name='style.linkcolor'>#ffffff</b:widget-setting>
+              <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
+            </b:widget-settings>
+            <b:includable id='main'>
   <div class='widget-content'>
-    <b:include data='feeds' name='feeds'/>
-    <div style='clear:both'/>
+    <b:if cond='data:adCode'>
+      <data:adCode/>
+    <b:else/>
+      <b:include name='defaultAdUnit'/>
+    </b:if>
   </div>
 </b:includable>
-            <b:includable id='feeds' var='feeds'>
-  <b:loop values='data:feeds' var='feed'>
-    <div expr:class='&quot;subscribe-wrapper subscribe-type-&quot; + data:feed.type'>
-
-      <div expr:class='&quot;subscribe expanded subscribe-type-&quot; + data:feed.type' expr:id='&quot;SW_READER_LIST_&quot; + data:widgetId + data:feed.type' style='display:none;'>
-        <div class='top'>
-          <span class='inner' expr:onclick='&quot;return(_SW_toggleReaderList(event, \&quot;&quot; + data:widgetId +data:feed.type + &quot;\&quot;));&quot;'>
-            <img class='subscribe-dropdown-arrow' expr:src='data:arrowDropdownImg'/>
-            <img align='absmiddle' alt='' border='0' class='feed-icon' expr:src='data:feedIconImg'/>
-            <data:feed.title/>
-          </span>
-
-          <div class='feed-reader-links'>
-            <a class='feed-reader-link' expr:href='&quot;https://www.netvibes.com/subscribe.php?url=&quot; + data:feed.encodedUrl' target='_blank'>
-              <img expr:src='data:imagePathBase + &quot;subscribe-netvibes.png&quot;'/>
-            </a>
-            <a class='feed-reader-link' expr:href='&quot;https://add.my.yahoo.com/content?url=&quot; + data:feed.encodedUrl' target='_blank'>
-              <img expr:src='data:imagePathBase + &quot;subscribe-yahoo.png&quot;'/>
-            </a>
-            <a class='feed-reader-link' expr:href='data:feed.url' target='_blank'>
-              <img align='absmiddle' class='feed-icon' expr:src='data:feedIconImg'/>
-              Atom
-            </a>
-          </div>
-
-        </div>
-        <div class='bottom'/>
-      </div>
-
-      <div class='subscribe' expr:id='&quot;SW_READER_LIST_CLOSED_&quot; + data:widgetId +data:feed.type' expr:onclick='&quot;return(_SW_toggleReaderList(event, \&quot;&quot; + data:widgetId +data:feed.type + &quot;\&quot;));&quot;'>
-        <div class='top'>
-           <span class='inner'>
-             <img class='subscribe-dropdown-arrow' expr:src='data:arrowDropdownImg'/>
-             <span expr:onclick='&quot;return(_SW_toggleReaderList(event, \&quot;&quot; + data:widgetId +data:feed.type + &quot;\&quot;));&quot;'>
-               <img align='absmiddle' alt='' border='0' class='feed-icon' expr:src='data:feedIconImg'/>
-               <data:feed.title/>
-             </span>
-           </span>
-         </div>
-        <div class='bottom'/>
-      </div>
-
-    </div>
-  </b:loop>
+            <b:includable id='defaultAdUnit'>
+  <ins class='adsbygoogle' data-ad-format='auto' expr:data-ad-client='data:adClientId ?: data:blog.adsenseClientId' expr:data-ad-host='data:blog.adsenseHostId' expr:data-analytics-uacct='data:blog.analyticsAccountNumber' expr:style='data:style ?: &quot;display: block;&quot;'/>
+  <script>
+   (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
 </b:includable>
           </b:widget>
-          <b:widget id='FeaturedPost1' locked='false' title='Postagem em destaque' type='FeaturedPost' version='2' visible='true'>
+          <b:widget id='FeaturedPost1' locked='false' title='Recent Post' type='FeaturedPost' version='2' visible='true'>
             <b:widget-settings>
               <b:widget-setting name='showSnippet'>true</b:widget-setting>
               <b:widget-setting name='showPostTitle'>true</b:widget-setting>
               <b:widget-setting name='postId'>668923979611409090</b:widget-setting>
               <b:widget-setting name='showFirstImage'>true</b:widget-setting>
-              <b:widget-setting name='useMostRecentPost'>false</b:widget-setting>
+              <b:widget-setting name='useMostRecentPost'>true</b:widget-setting>
             </b:widget-settings>
             <b:includable id='main' var='this'>
       <b:include name='widget-title'/>
@@ -3557,33 +3502,7 @@ bloggerjs.src = &#39;//&#39; + disqus_shortname + &#39;.disqus.com/blogger_index
             <b:includable id='snippetedPostTitle'><b:comment>Replaced</b:comment></b:includable>
             <b:includable id='snippetedPosts'><b:comment>Replaced</b:comment></b:includable>
           </b:widget>
-          <b:widget id='AdSense1' locked='false' title='' type='AdSense' version='2' visible='true'>
-            <b:widget-settings>
-              <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
-              <b:widget-setting name='style.textcolor'>#ffffff</b:widget-setting>
-              <b:widget-setting name='style.layout'>300x250</b:widget-setting>
-              <b:widget-setting name='style.bordercolor'>#ffffff</b:widget-setting>
-              <b:widget-setting name='style.urlcolor'>#ffffff</b:widget-setting>
-              <b:widget-setting name='style.linkcolor'>#ffffff</b:widget-setting>
-              <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
-            </b:widget-settings>
-            <b:includable id='main'>
-  <div class='widget-content'>
-    <b:if cond='data:adCode'>
-      <data:adCode/>
-    <b:else/>
-      <b:include name='defaultAdUnit'/>
-    </b:if>
-  </div>
-</b:includable>
-            <b:includable id='defaultAdUnit'>
-  <ins class='adsbygoogle' data-ad-format='auto' expr:data-ad-client='data:adClientId ?: data:blog.adsenseClientId' expr:data-ad-host='data:blog.adsenseHostId' expr:data-analytics-uacct='data:blog.analyticsAccountNumber' expr:style='data:style ?: &quot;display: block;&quot;'/>
-  <script>
-   (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
-</b:includable>
-          </b:widget>
-          <b:widget id='PopularPosts1' locked='false' title='Top 5 da Semana' type='PopularPosts' visible='true'>
+          <b:widget id='PopularPosts1' locked='false' title='Top 5 Posts' type='PopularPosts' visible='true'>
             <b:widget-settings>
               <b:widget-setting name='numItemsToShow'>5</b:widget-setting>
               <b:widget-setting name='showThumbnails'>true</b:widget-setting>
@@ -3669,66 +3588,20 @@ bloggerjs.src = &#39;//&#39; + disqus_shortname + &#39;.disqus.com/blogger_index
             <b:includable id='snippetedPostTitle'><b:comment>Replaced</b:comment></b:includable>
             <b:includable id='snippetedPosts'><b:comment>Replaced</b:comment></b:includable>
           </b:widget>
-          <b:widget id='HTML3' locked='false' title='Podcast [TESTE]' type='HTML' visible='false'>
+          <b:widget id='HTML5' locked='false' title='Facebook page' type='HTML' visible='true'>
             <b:widget-settings>
-              <b:widget-setting name='content'><![CDATA[<iframe src="https://anchor.fm/codeon/embed" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>]]></b:widget-setting>
+              <b:widget-setting name='content'><![CDATA[<iframe src="https%3A%2F%2Fwww.facebook.com%2FBlueTEXT.in&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=161185876079954" width="340" height="130" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>]]></b:widget-setting>
             </b:widget-settings>
             <b:includable id='main'>
       <b:include name='html-content'/>
     </b:includable>
           </b:widget>
-          <b:widget id='Image1' locked='false' title='EMMY AWARDS 2021' type='Image' visible='false'>
+          <b:widget id='HTML11' locked='false' title='Twitter' type='HTML' visible='true'>
             <b:widget-settings>
-              <b:widget-setting name='displayUrl'>https://1.bp.blogspot.com/-9np8i150AuA/YUelV19oHjI/AAAAAAAAC1s/Yxz9viPQF2cptFmMffTlgNjTnFdAwHr1QCNcBGAsYHQ/s1600/EMMY%2BAO%2BVIVO%2BPT01.jpg</b:widget-setting>
-              <b:widget-setting name='displayHeight'>1600</b:widget-setting>
-              <b:widget-setting name='sectionWidth'>150</b:widget-setting>
-              <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
-              <b:widget-setting name='displayWidth'>1600</b:widget-setting>
-              <b:widget-setting name='link'>https://www.bluetext.in/2021/11/2021%20Emmy%20Awards%20.html</b:widget-setting>
-              <b:widget-setting name='caption'/>
+              <b:widget-setting name='content'><![CDATA[<a class="twitter-timeline" data-width="550" data-height="450" data-theme="light" href="https://twitter.com/Tulsiram_Methre?ref_src=twsrc%5Etfw">Tweets by MundodosOtakus4</a> <script async="async" src="https://platform.twitter.com/widgets.js" charset="utf-8" ></script>]]></b:widget-setting>
             </b:widget-settings>
-            <b:includable id='main' var='this'>
-      <b:include name='widget-title'/>
-      <b:include name='content'/>
-    </b:includable>
-            <b:includable id='content'>
-      <b:include name='image-content'/>
-    </b:includable>
-          </b:widget>
-          <b:widget id='Image3' locked='false' title='CBLOL 2º SPLIT 2O21' type='Image' visible='false'>
-            <b:widget-settings>
-              <b:widget-setting name='displayUrl'>https://lh3.googleusercontent.com/-9Px3mFhNuSA/YLP8tLQXbSI/AAAAAAAACaY/eny7hxN0mpUZtvRAPv5XE9enmb6azAu_QCNcBGAsYHQ/s512/Sem%2Bt%25C3%25ADtulo-1.jpg</b:widget-setting>
-              <b:widget-setting name='displayHeight'>512</b:widget-setting>
-              <b:widget-setting name='sectionWidth'>150</b:widget-setting>
-              <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
-              <b:widget-setting name='displayWidth'>512</b:widget-setting>
-              <b:widget-setting name='link'>2021/11/world-cblol-champions-league-2021.html</b:widget-setting>
-              <b:widget-setting name='caption'/>
-            </b:widget-settings>
-            <b:includable id='main' var='this'>
-      <b:include name='widget-title'/>
-      <b:include name='content'/>
-    </b:includable>
-            <b:includable id='content'>
-      <b:include name='image-content'/>
-    </b:includable>
-          </b:widget>
-          <b:widget id='Image4' locked='false' title='Acompanhe ao vivo o Mundial de League of Legends 2021' type='Image' visible='true'>
-            <b:widget-settings>
-              <b:widget-setting name='displayUrl'>https://s2.glbimg.com/xIZWmIUNVgD9SlMGYlsrZZhJ8d8=/0x0:1600x900/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/r/j/tOhmerSXGRf36Pb7vw0w/worlds-header.jpg</b:widget-setting>
-              <b:widget-setting name='displayHeight'>554</b:widget-setting>
-              <b:widget-setting name='sectionWidth'>150</b:widget-setting>
-              <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
-              <b:widget-setting name='displayWidth'>984</b:widget-setting>
-              <b:widget-setting name='link'>2021/11/world-cblol-champions-league-2021.html</b:widget-setting>
-              <b:widget-setting name='caption'/>
-            </b:widget-settings>
-            <b:includable id='main' var='this'>
-      <b:include name='widget-title'/>
-      <b:include name='content'/>
-    </b:includable>
-            <b:includable id='content'>
-      <b:include name='image-content'/>
+            <b:includable id='main'>
+      <b:include name='html-content'/>
     </b:includable>
           </b:widget>
           <b:widget id='Image2' locked='false' title='Nossas Redes Sociais' type='Image' visible='true'>
@@ -3749,144 +3622,13 @@ bloggerjs.src = &#39;//&#39; + disqus_shortname + &#39;.disqus.com/blogger_index
       <b:include name='image-content'/>
     </b:includable>
           </b:widget>
-          <b:widget id='HTML5' locked='false' title='Nossa Pagina' type='HTML' visible='true'>
+          <b:widget id='Image5' locked='false' title='My Website is Safe' type='Image' visible='true'>
             <b:widget-settings>
-              <b:widget-setting name='content'><![CDATA[<iframe src="https%3A%2F%2Fwww.facebook.com%2FBlueTEXT.in&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=161185876079954" width="340" height="130" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>]]></b:widget-setting>
-            </b:widget-settings>
-            <b:includable id='main'>
-      <b:include name='html-content'/>
-    </b:includable>
-          </b:widget>
-          <b:widget id='HTML11' locked='false' title='Twitter' type='HTML' visible='true'>
-            <b:widget-settings>
-              <b:widget-setting name='content'><![CDATA[<a class="twitter-timeline" data-width="550" data-height="450" data-theme="light" href="https://twitter.com/Tulsiram_Methre?ref_src=twsrc%5Etfw">Tweets by MundodosOtakus4</a> <script async="async" src="https://platform.twitter.com/widgets.js" charset="utf-8" ></script>]]></b:widget-setting>
-            </b:widget-settings>
-            <b:includable id='main'>
-      <b:include name='html-content'/>
-    </b:includable>
-          </b:widget>
-          <b:widget id='HTML8' locked='false' title='Nossos Parceiros' type='HTML' visible='true'>
-            <b:widget-settings>
-              <b:widget-setting name='content'><![CDATA[<a href="https://www.bluetext.in"> <img border="0" alt="Mundo dos Otakus" src="https://i.imgur.com/fSU4KRu.jpg" width="88" height="31" title="Logo para Parcerias"/> </a>]]></b:widget-setting>
-            </b:widget-settings>
-            <b:includable id='main'>
-      <b:include name='html-content'/>
-    </b:includable>
-          </b:widget>
-          <b:widget id='Profile1' locked='false' title='Colaboradores' type='Profile' version='2' visible='true'>
-            <b:widget-settings>
-              <b:widget-setting name='showaboutme'>false</b:widget-setting>
-              <b:widget-setting name='showlocation'>false</b:widget-setting>
-            </b:widget-settings>
-            <b:includable id='main' var='this'>
-      <b:include name='widget-title'/>
-      <b:include name='content'/>
-    </b:includable>
-            <b:includable id='authorProfileImage'>
-      <img class='profile-img' expr:alt='data:messages.myPhoto' expr:src='resizeImage(data:authorPhoto.image, 45, &quot;1:1&quot;)'/>
-    </b:includable>
-            <b:includable id='content'>
-  <b:if cond='data:team'>
-    <div class='widget-content team'>
-      <b:include name='teamProfile'/>
-    </div>
-  <b:else/>
-    <div class='widget-content individual'>
-      <b:include name='userProfile'/>
-    </div>
-  </b:if>
-</b:includable>
-            <b:includable id='defaultProfileImage'>
-      <img class='profile-img' expr:alt='data:messages.myPhoto' src='https://4.bp.blogspot.com/-oSjP8F09qxo/Wy1J9dp7b0I/AAAAAAAACF0/ggcRfLCFQ9s2SSaeL9BFSE2wyTYzQaTyQCK4BGAYYCw/w45-h45-p-k-no-nu/avatar.jpg'/>
-    </b:includable>
-            <b:includable id='profileImage'>
-  <b:if cond='data:authorPhoto.image'>
-    <b:include name='authorProfileImage'/>
-  <b:else/>
-    <b:include name='defaultProfileImage'/>
-  </b:if>
-</b:includable>
-            <b:includable id='teamProfile'>
-  <ul>
-    <b:loop values='data:authors' var='author'>
-      <li>
-        <div class='team-member'>
-          <b:include data='author' name='teamProfileLink'/>
-        </div>
-      </li>
-    </b:loop>
-  </ul>
-</b:includable>
-            <b:includable id='teamProfileLink'>
-      <b:include name='profileImage'/>
-      <div class='profile-info'>
-        <a class='profile-name' expr:href='data:userUrl' rel='nofollow' target='_blank'><data:display-name/></a>
-        <a class='profile-link' expr:href='data:userUrl' rel='nofollow' target='_blank'><data:messages.showMore/></a>
-      </div>
-    </b:includable>
-            <b:includable id='userGoogleProfile'>
-  <div class='g-follow' data-annotation='bubble' data-height='20' expr:data-href='data:userUrl'/>
-</b:includable>
-            <b:includable id='userLocation'>
-  <dd class='profile-data location'><data:location/></dd>
-</b:includable>
-            <b:includable id='userProfile'>
-      <b:include name='profileImage'/>
-      <div class='profile-info'>
-        <a class='profile-name' expr:href='data:userUrl' rel='nofollow' target='_blank'><data:displayname/></a>
-        <a class='profile-link' expr:href='data:userUrl' rel='nofollow' target='_blank'><data:messages.showMore/></a>
-      </div>
-    </b:includable>
-            <b:includable id='userProfileData'>
-  <dt class='profile-data'>
-    <b:include name='userProfileLink'/>
-    <b:include cond='data:hasgoogleprofile' name='userGoogleProfile'/>
-  </dt>
-</b:includable>
-            <b:includable id='userProfileImage'>
-  <a expr:href='data:userUrl' rel='nofollow'>
-    <b:include name='profileImage'/>
-  </a>
-</b:includable>
-            <b:includable id='userProfileInfo'>
-      <div class='profile-info'>
-        <dl class='profile-datablock'>
-          <b:include name='userProfileData'/>
-        </dl>
-        <b:include name='viewProfileLink'/>
-      </div>
-    </b:includable>
-            <b:includable id='userProfileLink'>
-  <a class='profile-link g-profile' expr:href='data:userUrl' rel='author nofollow'>
-    <data:displayname/>
-  </a>
-</b:includable>
-            <b:includable id='userProfileText'>
-  <dd class='profile-textblock'>
-    <data:aboutme/>
-  </dd>
-</b:includable>
-            <b:includable id='viewProfileLink'>
-  <a class='profile-link' expr:href='data:userUrl' rel='author nofollow'>
-    <data:messages.viewMyCompleteProfile/>
-  </a>
-</b:includable>
-          </b:widget>
-          <b:widget id='HTML6' locked='false' title='Este Blog é protegido por DMCA.com' type='HTML' visible='true'>
-            <b:widget-settings>
-              <b:widget-setting name='content'><![CDATA[<a href="//www.dmca.com/Protection/Status.aspx?ID=a10d5218-8060-442b-aee7-d66f0d59b4aa" title="DMCA.com Protection Status" class="dmca-badge"> <img src ="https://images.dmca.com/Badges/dmca-badge-w250-5x1-04.png?ID=a10d5218-8060-442b-aee7-d66f0d59b4aa"  alt="DMCA.com Protection Status" /></a>  <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>]]></b:widget-setting>
-            </b:widget-settings>
-            <b:includable id='main'>
-      <b:include name='html-content'/>
-    </b:includable>
-          </b:widget>
-          <b:widget id='Image5' locked='false' title='Nossas Redes Sociais' type='Image' visible='false'>
-            <b:widget-settings>
-              <b:widget-setting name='displayUrl'>https://lh3.googleusercontent.com/-FcQRDQX2ouU/YLqSzohelUI/AAAAAAAACcM/HT3QEBUl7QUFNGEHpayIabG5Zy2TBM_YACNcBGAsYHQ/Selo.png</b:widget-setting>
-              <b:widget-setting name='displayHeight'>86</b:widget-setting>
+              <b:widget-setting name='displayUrl'>https://lh3.googleusercontent.com/-FcQRDQX2ouU/YLqSzohelUI/AAAAAAAACcM/HT3QEBUl7QUFNGEHpayIabG5Zy2TBM_YACNcBGAsYHQ/s150/Selo.png</b:widget-setting>
+              <b:widget-setting name='displayHeight'>25</b:widget-setting>
               <b:widget-setting name='sectionWidth'>150</b:widget-setting>
               <b:widget-setting name='shrinkToFit'>true</b:widget-setting>
-              <b:widget-setting name='displayWidth'>512</b:widget-setting>
+              <b:widget-setting name='displayWidth'>150</b:widget-setting>
               <b:widget-setting name='link'><![CDATA[https://transparencyreport.google.com/safe-browsing/search?url=bluetext.in&hl=en]]></b:widget-setting>
               <b:widget-setting name='caption'/>
             </b:widget-settings>
@@ -3898,7 +3640,7 @@ bloggerjs.src = &#39;//&#39; + disqus_shortname + &#39;.disqus.com/blogger_index
       <b:include name='image-content'/>
     </b:includable>
           </b:widget>
-          <b:widget id='HTML7' locked='false' title='Twitter' type='HTML' visible='false'>
+          <b:widget id='HTML7' locked='false' title='Creative Commons' type='HTML' visible='true'>
             <b:widget-settings>
               <b:widget-setting name='content'><![CDATA[<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"></a>]]></b:widget-setting>
             </b:widget-settings>
@@ -3906,9 +3648,9 @@ bloggerjs.src = &#39;//&#39; + disqus_shortname + &#39;.disqus.com/blogger_index
       <b:include name='html-content'/>
     </b:includable>
           </b:widget>
-          <b:widget id='HTML9' locked='false' title='' type='HTML' visible='true'>
+          <b:widget id='HTML8' locked='false' title='This Blog is protected by DMCA.com' type='HTML' visible='true'>
             <b:widget-settings>
-              <b:widget-setting name='content'><![CDATA[<a href="https://link112.com/" title="Link112: Submeter Site" >Link112</a>]]></b:widget-setting>
+              <b:widget-setting name='content'><![CDATA[<a href="//www.dmca.com/Protection/Status.aspx?ID=28fbceac-0445-48d8-b039-3bc0930af66d" target="_blank" title="Check blog Protection Status" class="dmca-badge"> <img src ="//www.dmca.com/Badges/dmca_protected_16_120.png" alt="DMCA.com for Blogger blogs" /></a> <script src="//images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>]]></b:widget-setting>
             </b:widget-settings>
             <b:includable id='main'>
       <b:include name='html-content'/>
@@ -3922,7 +3664,7 @@ bloggerjs.src = &#39;//&#39; + disqus_shortname + &#39;.disqus.com/blogger_index
     <!-- Footer Ads -->
     <div class='flex-center' id='footer-ads-wrap'>
       <b:section class='footer-ads container row-x1' id='footer-ads' maxwidgets='1' name='Footer ADS' showaddelement='yes'>
-        <b:widget id='HTML4' locked='false' title='Anuncio do Rodapé' type='HTML' visible='false'>
+        <b:widget id='HTML4' locked='false' title='Ads' type='HTML' visible='true'>
           <b:widget-settings>
             <b:widget-setting name='content'>&lt;script type=&#39;text/javascript&#39;&gt;
 $(document).ready(function() {$(&amp;#39;img#closed&amp;#39;).click(function(){$(&amp;#39;#bl_banner&amp;#39;).hide(90);});});
@@ -3959,13 +3701,13 @@ $(document).ready(function() {$(&amp;#39;img#closed&amp;#39;).click(function(){$
     <b:class cond='data:widgets none w =&gt; w.sectionId == &quot;supermag-pro-about-section&quot;' name='no-widget'/>
       <div class='container row-x1'>
         <b:section class='supermag-pro-about-section' id='supermag-pro-about-section' maxwidgets='2' name='About Section' showaddelement='yes'>
-          <b:widget id='Image100' locked='true' title='Sobre' type='Image' visible='true'>
+          <b:widget id='Image100' locked='true' title='About' type='Image' visible='true'>
             <b:widget-settings>
               <b:widget-setting name='displayUrl'>https://1.bp.blogspot.com/-Z7YHPQynSmc/YY-wfG5xZrI/AAAAAAAASFU/nm8rGkEh8Lc0yGTMhWygonjn1z2nQ2jpQCLcBGAsYHQ/s200/new%2Bcompress%2Blogo%2Btraspirant.png</b:widget-setting>
-              <b:widget-setting name='displayHeight'>245</b:widget-setting>
+              <b:widget-setting name='displayHeight'>58</b:widget-setting>
               <b:widget-setting name='sectionWidth'>150</b:widget-setting>
               <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
-              <b:widget-setting name='displayWidth'>727</b:widget-setting>
+              <b:widget-setting name='displayWidth'>200</b:widget-setting>
               <b:widget-setting name='link'>/</b:widget-setting>
               <b:widget-setting name='caption'>This is a blog that has been in existence for 4 years, here you can find news about the world of Animes, Events, Games, Films and other updated contents of geek culture.</b:widget-setting>
             </b:widget-settings>
@@ -4010,7 +3752,7 @@ $(document).ready(function() {$(&amp;#39;img#closed&amp;#39;).click(function(){$
         <b:section class='footer-copyright' id='footer-copyright' maxwidgets='1' name='Footer Copyright' showaddelement='yes'>
           <b:widget id='Text101' locked='true' title='' type='Text' visible='true'>
             <b:widget-settings>
-              <b:widget-setting name='content'><![CDATA[2018 - <script type="text/javascript">document.write(new Date().getFullYear());</script> <a href="animew21.blogspot.com">Mundo dos Otakus</a> - Todos Direitos Autorais Reservados]]></b:widget-setting>
+              <b:widget-setting name='content'><![CDATA[2018 - <script type="text/javascript">document.write(new Date().getFullYear());</script> ©<a href="https://www.bluetext.in">BlueTEXT.in</a> - All rights reserved]]></b:widget-setting>
             </b:widget-settings>
             <b:includable id='main'>
       <b:include name='text-content'/>
