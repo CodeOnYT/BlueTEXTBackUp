@@ -1,4 +1,4 @@
-# Blogspot (Blogger) Templates for https://www.bluetext.in/ [![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/web-xaser/blogger-templates) [![License](https://img.shields.io/npm/l/express.svg)](http://web-xaser.mit-license.org/) 
+# Blogspot (Blogger) Templates for https://www.bluetext.in/ [![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/web-xaser/blogger-templates) [![License](https://img.shields.io/npm/l/express.svg)](http://web-xaser.mit-license.org/) [https://img.shields.io/github/followers/bluetextin?color=%230046bf&logo=BlueTEXT.in&style=social]
 
 This Template is designed to wrok with Google's blog platform [Blogger.com](https://blogger.com/). 
 
