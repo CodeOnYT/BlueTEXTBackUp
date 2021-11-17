@@ -4,37 +4,48 @@
 <b:include name='theme-dark-mode'/>
 <head>
   	<meta content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' name='robots'/>
-        
+      <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"/>    
     <!-- Google Fonts -->
     <link href='//fonts.googleapis.com/css?family=Poppins:400,400i,600,600i,700,700i' media='all' rel='stylesheet' type='text/css'/>
     <link href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet'/>
     
     <!--adsense-->
-  	<script async='async' crossorigin='anonymous' src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7362691034711334'/>
+  	<script async='async' crossorigin='anonymous' src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9390477682935072'/>
   
     <!-- Twitter Card -->
 	<meta content='summary' name='twitter:card'/>
     <!--End Twitter Card -->
   
     <!-- Cookies Manager -->
-    <script class='adopt-injector' src='//tag.goadopt.io/injector.js?website_code=92cb7be2-de24-4757-9683-a09ddf889694'/>
+    <meta content='495b2e53-2c9e-40ae-90a3-2a62175006f0' name='adopt-website-id'/>
+    <script class='adopt-injector' src='//tag.goadopt.io/injector.js?website_code=495b2e53-2c9e-40ae-90a3-2a62175006f0'/>
     <script>window.adoptHideAfterConsent = false;</script>
     <!--End Cookies Manager -->
   
   	<!--Verificações -->
     <!--Pin-->
-    <meta content='a8f48514aa145b755818713d640478b5' name='p:domain_verify'/>
+    <meta content='0c09223d26a05f302a15df82993b1261' name='p:domain_verify'/>
     
     <!--Yandex-->
-  	<meta content='2ba8e34dece8430b' name='yandex-verification'/>
-  	<meta content='677707b3d83c9c2d' name='yandex-verification'/>
-  
+  	<meta content='e1341b3c05900d64' name='yandex-verification'/>
+
     <!--Verificação do Google-->
-    <meta content='_rc4Qv_XziL8RQLvfF7gno3wfUiVWOYwgw4juAFVdx8' name='google-site-verification'/>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async='async' src='https://www.googletagmanager.com/gtag/js?id=UA-202511782-1'/>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag(&#39;js&#39;, new Date());
+  gtag(&#39;set&#39;, {&#39;user_id&#39;: &#39;USER_ID&#39;}); // Set the user ID using signed-in user_id.
+  ga(&#39;set&#39;, &#39;userId&#39;, &#39;USER_ID&#39;); // Set the user ID using signed-in user_id.
+  gtag(&#39;config&#39;, &#39;UA-202511782-1&#39;);
+</script>
+
     <!--End Verificações -->
-  	<!--verificação do Bing Webmastertools-->
-  	<meta content='2DB5C54DECC0876220ED89F17E5C7D18' name='msvalidate.01'/>
   
+  	<!--verificação do Bing Webmastertools-->
+    
+  <meta content='BE64CC3F42B988682F2210DFC51467F6' name='msvalidate.01'/>
    
 <b:include name='theme-head'/>
 <b:if cond='!data:view.isLayoutMode'>
@@ -1371,7 +1382,7 @@ body#layout #hidden-widgets{display:none!important}
 <!-- Theme Variables -->
 <script type='text/javascript'>
 //<![CDATA[
-var noThumbnail = "https://4.bp.blogspot.com/-eALXtf-Ljts/WrQYAbzcPUI/AAAAAAAABjY/vptx-N2H46oFbiCqbSe2JgVSlHhyl0MwQCK4BGAYYCw/s72-c/nth-ify.png",
+var noThumbnail = "https://blogger.googleusercontent.com/img/a/AVvXsEj_A0cO-Ej4NgZks2xhlj_xiNSMDPEXIB4e-ZpEI4VrDIESciYHCWDDysOijusu1Zzk-yYE28yIMprRGwi3xIB-Pa_F0tZ-lE1dyDg6yTp0kk-fMuZ2myFAFni0gRF-Tj9e6tywiL3ryB62pYx19S3hq-_N-8_t6tIkqpJQJPy5qhzvqlnXi8I47eSe=s1087",
     fixedMenu = true,
     fixedSidebar = true,
     darkMode = false,
@@ -2413,7 +2424,7 @@ var noThumbnail = "https://4.bp.blogspot.com/-eALXtf-Ljts/WrQYAbzcPUI/AAAAAAAABj
       <img class='profile-img' expr:alt='data:messages.myPhoto' expr:src='resizeImage(data:authorPhoto.image, 45, &quot;1:1&quot;)'/>
     </b:includable>
     <b:includable id='defaultProfileImage'>
-      <img class='profile-img' expr:alt='data:messages.myPhoto' src='https://4.bp.blogspot.com/-oSjP8F09qxo/Wy1J9dp7b0I/AAAAAAAACF0/ggcRfLCFQ9s2SSaeL9BFSE2wyTYzQaTyQCK4BGAYYCw/w45-h45-p-k-no-nu/avatar.jpg'/>
+      <img class='profile-img' expr:alt='data:messages.myPhoto' src='https://lh3.googleusercontent.com/W6PHOAnFUS-41G43kqf0S0Xc4vWFc49e3WXX8cBGla7g21ijU49Ke0LcVoRZgBRo2Nm1rNXRvk9UoHhwYBDkH_XyCbkS2U8MEsY-HghdhHsrIeSj7faZQe7ei9YZJSwhOMu5mOPcq6oJrw_HS6KeSPSZo3GjkljyC8c_S9SZI2DaBH5IN539PvtDjfoFZ4d1hEc1kjNR4XymuSuzOlu7R2sd-WGg36OQUdfDl5b5oMhPTvc6hCeQMQ9ykvGzY6G1eXQhqrQ2TNfxGwMk_T1Pfn4Z4w-9__aglMINP8n2UpWtFfQ3i4N56CTdpNsVAGFvAbUcw4kPkI1y_n-2Ak14pceQCL7BFz-3fZN70BoG-ki_jpHUwg5NP-wTLHSDo65k8GZoU61OXLtZ8GjtOBgL7UXoQXPyMk367V6qdq12jI8RSGzAAw9UUQgh2y67LG_MxgQ-fWuk0E3SwCdVklaiBYChsD0z4up354_Ddj3F5731PI5J40MT9M3wm22pDns1BTlA-rqy-ERPzrH4qe9QQIhKqr2PwR-2uApA4hnTO2RWcHNwxGo1op1CX2yfcO4Z823oV9sh176zPf9ujSkEQJDpoyg_h4tCTql2V0QTOpejAlJc8P9rIrHJhPsEcAj6uEJwoi3-tgksq_MELHtnONlOg97ViNJ7IeHDLJFYvBavcwYHKjiaJH6PzL1olzCzAvt51-cDZbcTYE-_3IgiN4j-=w1734-h975-no?authuser=0'/>
     </b:includable>
     <b:includable id='userProfileInfo'>
       <div class='profile-info'>
@@ -2462,8 +2473,8 @@ var noThumbnail = "https://4.bp.blogspot.com/-eALXtf-Ljts/WrQYAbzcPUI/AAAAAAAABj
       </b:widget>
       <b:widget id='Image101' locked='true' title='No Thumbnail Image' type='Image' visible='true'>
         <b:widget-settings>
-          <b:widget-setting name='displayUrl'>https://lh3.googleusercontent.com/HqIOkP3U2g9MTLkgEGqJ1TT1oSaGkEbOtOea6x8TIoop9n5dNFDFutuCFrBDoTV3B3aQhbHF5fJ576BOxhH28b3XqQ4KQIaH0hwMWG3wasTR23cQogznd1rAXFBbCo3p5H__CqmQQd0RkXmu8oVd5MN_DWCzU_j268H8f__9u-3POO4iH1qpSttIN86GMxIflbP8aXSEVUTgFqCpl8TwEvaosugeGG8eenP3pSlNg7NVfNEW-EfPEhP7huYQO-2QAOcXyum71rZAFDcFuzDroXgm9ZnC6SP3VKHnPWRG_DO0ZxazHzL-7IcS3QusRjIXU49Ri0m3SUegCBnRmIBsImV9_dBSaTgjus2B_owWO9CBXnZHV_L3kI_p1QVgRUsQr4JwGWyHnHH_LQAApSpUBm7x5FeMuBsEK_XQOpieHa6RRAFkmqaadrL0DACcTqD894OcEgW3hA8HiVtKmhiCrypwupJJy-9m-wdPPDnCT2qBNOa73hrgtZAmpc8DYijRIb7LQ4dXziMw9TN5v8btUXShqqRM2jkTFVPotSUo7mzQXo2zvbhY538QevFwlDp8hc9ff5-xkQoOZuw1g3iIY8BUPOBjAfliRzXEZXJVvhM2bbhoNY-NtgmQgm7ljlQAp_wq73o_oTGvOrwYvBoQFbZTpvSEe-8opS35ygQojpSS9nrOhexvaKoJuENBoP6WxAmC7QIaSTR-8hvDM-HS16w3=s1600-no?authuser=0</b:widget-setting>
-          <b:widget-setting name='displayHeight'>900</b:widget-setting>
+          <b:widget-setting name='displayUrl'>https://lh3.googleusercontent.com/HqIOkP3U2g9MTLkgEGqJ1TT1oSaGkEbOtOea6x8TIoop9n5dNFDFutuCFrBDoTV3B3aQhbHF5fJ576BOxhH28b3XqQ4KQIaH0hwMWG3wasTR23cQogznd1rAXFBbCo3p5H__CqmQQd0RkXmu8oVd5MN_DWCzU_j268H8f__9u-3POO4iH1qpSttIN86GMxIflbP8aXSEVUTgFqCpl8TwEvaosugeGG8eenP3pSlNg7NVfNEW-EfPEhP7huYQO-2QAOcXyum71rZAFDcFuzDroXgm9ZnC6SP3VKHnPWRG_DO0ZxazHzL-7IcS3QusRjIXU49Ri0m3SUegCBnRmIBsImV9_dBSaTgjus2B_owWO9CBXnZHV_L3kI_p1QVgRUsQr4JwGWyHnHH_LQAApSpUBm7x5FeMuBsEK_XQOpieHa6RRAFkmqaadrL0DACcTqD894OcEgW3hA8HiVtKmhiCrypwupJJy-9m-wdPPDnCT2qBNOa73hrgtZAmpc8DYijRIb7LQ4dXziMw9TN5v8btUXShqqRM2jkTFVPotSUo7mzQXo2zvbhY538QevFwlDp8hc9ff5-xkQoOZuw1g3iIY8BUPOBjAfliRzXEZXJVvhM2bbhoNY-NtgmQgm7ljlQAp_wq73o_oTGvOrwYvBoQFbZTpvSEe-8opS35ygQojpSS9nrOhexvaKoJuENBoP6WxAmC7QIaSTR-8hvDM-HS16w3=w1734-h975-no?authuser=0</b:widget-setting>
+          <b:widget-setting name='displayHeight'>1002</b:widget-setting>
           <b:widget-setting name='sectionWidth'>150</b:widget-setting>
           <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
           <b:widget-setting name='displayWidth'>1600</b:widget-setting>
@@ -2537,15 +2548,15 @@ var noThumbnail = "https://4.bp.blogspot.com/-eALXtf-Ljts/WrQYAbzcPUI/AAAAAAAABj
             <div class='header-items'>
               <div class='flex-left'>
                 <b:section class='main-logo' id='main-logo' maxwidgets='1' name='Header Logo' showaddelement='no'>
-                  <b:widget id='Header1' locked='true' title='Xvideos (Header)' type='Header' visible='true'>
+                  <b:widget id='Header1' locked='true' title='BlueTEXT.in (Header)' type='Header' version='2' visible='true'>
                     <b:widget-settings>
-                      <b:widget-setting name='displayUrl'>http://2.bp.blogspot.com/-8n8CR6LectY/YIxssb-G9zI/AAAAAAAACCQ/2KrmJpwRc88Ghn3ejZXHyR1UZzkwV2ZugCK4BGAYYCw/s1600/Novas%2BArtes.png</b:widget-setting>
-                      <b:widget-setting name='displayHeight'>257</b:widget-setting>
+                      <b:widget-setting name='displayUrl'>https://1.bp.blogspot.com/-teBWZXpV6Nc/YZMvSqfkXbI/AAAAAAAASKU/qyHZTZgkMc4PKNqzxOF3qnMhnFUEJMiMgCLcBGAsYHQ/s150/lOOKS%2BgOOD%2B%25281%2529.png</b:widget-setting>
+                      <b:widget-setting name='displayHeight'>34</b:widget-setting>
                       <b:widget-setting name='sectionWidth'>150</b:widget-setting>
                       <b:widget-setting name='useImage'>true</b:widget-setting>
-                      <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
+                      <b:widget-setting name='shrinkToFit'>true</b:widget-setting>
                       <b:widget-setting name='imagePlacement'>REPLACE</b:widget-setting>
-                      <b:widget-setting name='displayWidth'>1600</b:widget-setting>
+                      <b:widget-setting name='displayWidth'>150</b:widget-setting>
                     </b:widget-settings>
                     <b:includable id='main' var='this'>
       <b:tag class='mobile-menu-toggle' href='javascript:;' name='a' role='button' title='Menu'/>
@@ -2576,26 +2587,26 @@ var noThumbnail = "https://4.bp.blogspot.com/-eALXtf-Ljts/WrQYAbzcPUI/AAAAAAAABj
                     <b:widget-settings>
                       <b:widget-setting name='text-10'>_Japão</b:widget-setting>
                       <b:widget-setting name='sorting'>NONE</b:widget-setting>
-                      <b:widget-setting name='link-1'>https://www.animew21.xyz/search</b:widget-setting>
+                      <b:widget-setting name='link-1'>https://www.bluetext.in/search</b:widget-setting>
                       <b:widget-setting name='link-2'>/search/label/Games</b:widget-setting>
                       <b:widget-setting name='link-0'>{homepage}</b:widget-setting>
-                      <b:widget-setting name='link-11'>/p/sobre.html</b:widget-setting>
-                      <b:widget-setting name='link-10'>https://www.animew21.xyz/search/label/Japao</b:widget-setting>
+                      <b:widget-setting name='link-11'>/p/ibemusicstudio.html</b:widget-setting>
+                      <b:widget-setting name='link-10'>https://www.bluetext.in/search/label/Best%20Products</b:widget-setting>
                       <b:widget-setting name='text-9'>_Cosplay</b:widget-setting>
-                      <b:widget-setting name='link-9'>/search/label/Cosplay</b:widget-setting>
+                      <b:widget-setting name='link-9'>/search/label/news</b:widget-setting>
                       <b:widget-setting name='text-8'>_Tecnologia</b:widget-setting>
-                      <b:widget-setting name='link-7'>/p/radio-geek_57.html</b:widget-setting>
+                      <b:widget-setting name='link-7'>/p/codeon-show-podcast.html</b:widget-setting>
                       <b:widget-setting name='link-8'>/search/label/Tecnologia</b:widget-setting>
                       <b:widget-setting name='link-5'>/p/cblol.html</b:widget-setting>
                       <b:widget-setting name='link-6'>#</b:widget-setting>
-                      <b:widget-setting name='link-3'>https://www.animew21.xyz/search/label/Mangá</b:widget-setting>
-                      <b:widget-setting name='link-4'>https://www.animew21.xyz/search/label/Filmes</b:widget-setting>
+                      <b:widget-setting name='link-3'>https://www.bluetext.in/search/label/programming</b:widget-setting>
+                      <b:widget-setting name='link-4'>https://www.bluetext.in/search/label/Mod%20Apps</b:widget-setting>
                       <b:widget-setting name='text-1'>Noticias</b:widget-setting>
                       <b:widget-setting name='text-0'>Home</b:widget-setting>
-                      <b:widget-setting name='text-3'>Mangás</b:widget-setting>
-                      <b:widget-setting name='text-2'>Games</b:widget-setting>
-                      <b:widget-setting name='text-5'>CBLOL</b:widget-setting>
-                      <b:widget-setting name='text-4'>Filmes</b:widget-setting>
+                      <b:widget-setting name='text-3'>TECH</b:widget-setting>
+                      <b:widget-setting name='text-2'>PROGRAMMING</b:widget-setting>
+                      <b:widget-setting name='text-5'>HOWTO</b:widget-setting>
+                      <b:widget-setting name='text-4'>BUYING GUIDE</b:widget-setting>
                       <b:widget-setting name='text-7'>_Radio Geek</b:widget-setting>
                       <b:widget-setting name='text-6'>+Mais</b:widget-setting>
                       <b:widget-setting name='text-11'>Sobre</b:widget-setting>
@@ -2635,6 +2646,15 @@ var noThumbnail = "https://4.bp.blogspot.com/-eALXtf-Ljts/WrQYAbzcPUI/AAAAAAAABj
     <div class='flex-center' id='header-ads-wrap'>
       <b:section class='header-ads container row-x1' id='header-ads' maxwidgets='1' name='Header ADS' showaddelement='yes'>
         <b:widget id='AdSense2' locked='false' title='' type='AdSense' version='2' visible='true'>
+          <b:widget-settings>
+            <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
+            <b:widget-setting name='style.textcolor'>#ffffff</b:widget-setting>
+            <b:widget-setting name='style.layout'>728x90</b:widget-setting>
+            <b:widget-setting name='style.bordercolor'>#ffffff</b:widget-setting>
+            <b:widget-setting name='style.urlcolor'>#ffffff</b:widget-setting>
+            <b:widget-setting name='style.linkcolor'>#ffffff</b:widget-setting>
+            <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
+          </b:widget-settings>
           <b:includable id='main'>
   <div class='widget-content'>
     <b:if cond='data:adCode'>
@@ -2765,6 +2785,15 @@ var noThumbnail = "https://4.bp.blogspot.com/-eALXtf-Ljts/WrQYAbzcPUI/AAAAAAAABj
         </b:section>
         <b:section class='home-ads' cond='data:view.isLayoutMode or (data:view.isHomepage and (data:widgets any w =&gt; w.sectionId == &quot;home-ads&quot;))' id='home-ads' maxwidgets='1' name='Home Ads' showaddelement='yes'>
           <b:widget id='AdSense3' locked='false' title='' type='AdSense' version='2' visible='true'>
+            <b:widget-settings>
+              <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
+              <b:widget-setting name='style.textcolor'>#ffffff</b:widget-setting>
+              <b:widget-setting name='style.layout'>1x1</b:widget-setting>
+              <b:widget-setting name='style.bordercolor'>#ffffff</b:widget-setting>
+              <b:widget-setting name='style.urlcolor'>#ffffff</b:widget-setting>
+              <b:widget-setting name='style.linkcolor'>#ffffff</b:widget-setting>
+              <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
+            </b:widget-settings>
             <b:includable id='main'>
   <div class='widget-content'>
     <b:if cond='data:adCode'>
@@ -2803,6 +2832,7 @@ var noThumbnail = "https://4.bp.blogspot.com/-eALXtf-Ljts/WrQYAbzcPUI/AAAAAAAABj
               <b:widget-setting name='style.textcolor'>#ffffff</b:widget-setting>
               <b:widget-setting name='showCommentLink'>true</b:widget-setting>
               <b:widget-setting name='style.urlcolor'>#ffffff</b:widget-setting>
+              <b:widget-setting name='postLocationLabel'>Location</b:widget-setting>
               <b:widget-setting name='showAuthor'>true</b:widget-setting>
               <b:widget-setting name='style.linkcolor'>#ffffff</b:widget-setting>
               <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
@@ -3293,6 +3323,15 @@ var noThumbnail = "https://4.bp.blogspot.com/-eALXtf-Ljts/WrQYAbzcPUI/AAAAAAAABj
         <b:tag cond='data:view.isLayoutMode or data:view.isPost' id='custom-ads' name='div'>
           <b:section cond='data:view.isPost' id='supermag-pro-main-before-ad' maxwidgets='1' name='Post ADS 1' showaddelement='yes'>
             <b:widget id='AdSense4' locked='false' title='' type='AdSense' version='2' visible='true'>
+              <b:widget-settings>
+                <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
+                <b:widget-setting name='style.textcolor'>#ffffff</b:widget-setting>
+                <b:widget-setting name='style.layout'>728x90</b:widget-setting>
+                <b:widget-setting name='style.bordercolor'>#ffffff</b:widget-setting>
+                <b:widget-setting name='style.urlcolor'>#ffffff</b:widget-setting>
+                <b:widget-setting name='style.linkcolor'>#ffffff</b:widget-setting>
+                <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
+              </b:widget-settings>
               <b:includable id='main'>
   <div class='widget-content'>
     <b:if cond='data:adCode'>
@@ -3311,9 +3350,10 @@ var noThumbnail = "https://4.bp.blogspot.com/-eALXtf-Ljts/WrQYAbzcPUI/AAAAAAAABj
             </b:widget>
           </b:section>
           <b:section cond='data:view.isPost' id='supermag-pro-main-after-ad' maxwidgets='1' name='Post ADS 2' showaddelement='yes'/>
+          
         </b:tag>
         <b:section cond='data:view.isLayoutMode or (data:view.isPost and (data:widgets.HTML any w =&gt; w.sectionId == &quot;supermag-pro-related-posts&quot;))' id='supermag-pro-related-posts' maxwidgets='1' name='Related Posts' showaddelement='yes'>
-          <b:widget id='HTML101' locked='true' title='Postagens Relacionadas' type='HTML' visible='true'>
+          <b:widget id='HTML101' locked='true' title='Replated Post' type='HTML' visible='true'>
             <b:widget-settings>
               <b:widget-setting name='content'>$results={3}</b:widget-setting>
             </b:widget-settings>
@@ -3323,7 +3363,7 @@ var noThumbnail = "https://4.bp.blogspot.com/-eALXtf-Ljts/WrQYAbzcPUI/AAAAAAAABj
           </b:widget>
         </b:section>
         <b:section cond='data:view.isLayoutMode or (data:view.isPost and (data:widgets any w =&gt; w.sectionId == &quot;supermag-pro-post-footer-ads&quot;))' id='supermag-pro-post-footer-ads' maxwidgets='1' name='Post ADS 3' showaddelement='yes'>
-          <b:widget id='HTML1' locked='false' title='Anuncio do Rodapé' type='HTML' visible='true'>
+          <b:widget id='HTML1' locked='false' title='Ads' type='HTML' visible='true'>
             <b:widget-settings>
               <b:widget-setting name='content'>&lt;script async src=&quot;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
 &lt;!-- bluetextindia_sidebar_AdSense2_1x1_as --&gt;
@@ -3346,7 +3386,7 @@ var noThumbnail = "https://4.bp.blogspot.com/-eALXtf-Ljts/WrQYAbzcPUI/AAAAAAAABj
       <!-- Sidebar Wrapper -->
       <aside id='sidebar-wrapper'>
         <b:section class='sidebar supermag-pro-widget-ready' id='sidebar' name='Sidebar' showaddelement='yes'>
-          <b:widget id='HTML11' locked='false' title='Donate Us' type='HTML' visible='true'>
+          <b:widget id='HTML2' locked='false' title='Donate Us' type='HTML' visible='true'>
             <b:widget-settings>
               <b:widget-setting name='content'><![CDATA[<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#2859e0', 'R6R222PAC');kofiwidget2.draw();</script>]]></b:widget-setting>
             </b:widget-settings>
@@ -3354,7 +3394,7 @@ var noThumbnail = "https://4.bp.blogspot.com/-eALXtf-Ljts/WrQYAbzcPUI/AAAAAAAABj
       <b:include name='html-content'/>
     </b:includable>
           </b:widget>
-          <b:widget id='HTML9' locked='false' title='Support US' type='HTML' visible='true'>
+          <b:widget id='HTML12' locked='false' title='Support US' type='HTML' visible='true'>
             <b:widget-settings>
               <b:widget-setting name='content'><![CDATA[<a href="https://www.patreon.com/bePatron?u=51702866" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>]]></b:widget-setting>
             </b:widget-settings>
@@ -3362,7 +3402,7 @@ var noThumbnail = "https://4.bp.blogspot.com/-eALXtf-Ljts/WrQYAbzcPUI/AAAAAAAABj
       <b:include name='html-content'/>
     </b:includable>
           </b:widget>
-          <b:widget id='HTML8' locked='false' title='CodeOn Podcast' type='HTML' visible='true'>
+          <b:widget id='HTML3' locked='false' title='CodeOn Podcast' type='HTML' visible='true'>
             <b:widget-settings>
               <b:widget-setting name='content'><![CDATA[<iframe src="https://anchor.fm/codeon/embed" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>]]></b:widget-setting>
             </b:widget-settings>
@@ -3370,7 +3410,7 @@ var noThumbnail = "https://4.bp.blogspot.com/-eALXtf-Ljts/WrQYAbzcPUI/AAAAAAAABj
       <b:include name='html-content'/>
     </b:includable>
           </b:widget>
-          <b:widget id='HTML7' locked='false' title='Youtube' type='HTML' visible='true'>
+          <b:widget id='HTML13' locked='false' title='Youtube' type='HTML' visible='true'>
             <b:widget-settings>
               <b:widget-setting name='content'>&lt;script src=&quot;https://apps.elfsight.com/p/platform.js&quot; defer&gt;&lt;/script&gt;
 &lt;div class=&quot;elfsight-app-1a105341-c219-4ee4-ac21-ad7281c36d6b&quot;&gt;&lt;/div&gt;
@@ -3380,11 +3420,37 @@ var noThumbnail = "https://4.bp.blogspot.com/-eALXtf-Ljts/WrQYAbzcPUI/AAAAAAAABj
       <b:include name='html-content'/>
     </b:includable>
           </b:widget>
-          <b:widget id='FeaturedPost1' locked='false' title='Featured Post' type='FeaturedPost' visible='true'>
+          <b:widget id='AdSense1' locked='false' title='' type='AdSense' version='2' visible='true'>
+            <b:widget-settings>
+              <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
+              <b:widget-setting name='style.textcolor'>#ffffff</b:widget-setting>
+              <b:widget-setting name='style.layout'>300x250</b:widget-setting>
+              <b:widget-setting name='style.bordercolor'>#ffffff</b:widget-setting>
+              <b:widget-setting name='style.urlcolor'>#ffffff</b:widget-setting>
+              <b:widget-setting name='style.linkcolor'>#ffffff</b:widget-setting>
+              <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
+            </b:widget-settings>
+            <b:includable id='main'>
+  <div class='widget-content'>
+    <b:if cond='data:adCode'>
+      <data:adCode/>
+    <b:else/>
+      <b:include name='defaultAdUnit'/>
+    </b:if>
+  </div>
+</b:includable>
+            <b:includable id='defaultAdUnit'>
+  <ins class='adsbygoogle' data-ad-format='auto' expr:data-ad-client='data:adClientId ?: data:blog.adsenseClientId' expr:data-ad-host='data:blog.adsenseHostId' expr:data-analytics-uacct='data:blog.analyticsAccountNumber' expr:style='data:style ?: &quot;display: block;&quot;'/>
+  <script>
+   (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+</b:includable>
+          </b:widget>
+          <b:widget id='FeaturedPost1' locked='false' title='Recent Post' type='FeaturedPost' version='2' visible='true'>
             <b:widget-settings>
               <b:widget-setting name='showSnippet'>true</b:widget-setting>
               <b:widget-setting name='showPostTitle'>true</b:widget-setting>
-              <b:widget-setting name='postId'>0</b:widget-setting>
+              <b:widget-setting name='postId'>668923979611409090</b:widget-setting>
               <b:widget-setting name='showFirstImage'>true</b:widget-setting>
               <b:widget-setting name='useMostRecentPost'>true</b:widget-setting>
             </b:widget-settings>
@@ -3439,10 +3505,10 @@ var noThumbnail = "https://4.bp.blogspot.com/-eALXtf-Ljts/WrQYAbzcPUI/AAAAAAAABj
           </b:widget>
           <b:widget id='PopularPosts1' locked='false' title='Top 5 Posts' type='PopularPosts' visible='true'>
             <b:widget-settings>
-              <b:widget-setting name='numItemsToShow'>10</b:widget-setting>
+              <b:widget-setting name='numItemsToShow'>5</b:widget-setting>
               <b:widget-setting name='showThumbnails'>true</b:widget-setting>
               <b:widget-setting name='showSnippets'>true</b:widget-setting>
-              <b:widget-setting name='timeRange'>LAST_YEAR</b:widget-setting>
+              <b:widget-setting name='timeRange'>LAST_WEEK</b:widget-setting>
             </b:widget-settings>
             <b:includable id='main' var='this'>
       <b:include name='widget-title'/>
@@ -3523,7 +3589,7 @@ var noThumbnail = "https://4.bp.blogspot.com/-eALXtf-Ljts/WrQYAbzcPUI/AAAAAAAABj
             <b:includable id='snippetedPostTitle'><b:comment>Replaced</b:comment></b:includable>
             <b:includable id='snippetedPosts'><b:comment>Replaced</b:comment></b:includable>
           </b:widget>
-          <b:widget id='HTML6' locked='false' title='Facebook page' type='HTML' visible='true'>
+          <b:widget id='HTML5' locked='false' title='Facebook page' type='HTML' visible='true'>
             <b:widget-settings>
               <b:widget-setting name='content'><![CDATA[<iframe src="https%3A%2F%2Fwww.facebook.com%2FBlueTEXT.in&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=161185876079954" width="340" height="130" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>]]></b:widget-setting>
             </b:widget-settings>
@@ -3531,7 +3597,7 @@ var noThumbnail = "https://4.bp.blogspot.com/-eALXtf-Ljts/WrQYAbzcPUI/AAAAAAAABj
       <b:include name='html-content'/>
     </b:includable>
           </b:widget>
-          <b:widget id='HTML5' locked='false' title='Twitter' type='HTML' visible='true'>
+          <b:widget id='HTML11' locked='false' title='Twitter' type='HTML' visible='true'>
             <b:widget-settings>
               <b:widget-setting name='content'><![CDATA[<a class="twitter-timeline" data-width="550" data-height="450" data-theme="light" href="https://twitter.com/Tulsiram_Methre?ref_src=twsrc%5Etfw">Tweets by MundodosOtakus4</a> <script async="async" src="https://platform.twitter.com/widgets.js" charset="utf-8" ></script>]]></b:widget-setting>
             </b:widget-settings>
@@ -3541,12 +3607,12 @@ var noThumbnail = "https://4.bp.blogspot.com/-eALXtf-Ljts/WrQYAbzcPUI/AAAAAAAABj
           </b:widget>
           <b:widget id='Image2' locked='false' title='Nossas Redes Sociais' type='Image' visible='true'>
             <b:widget-settings>
-              <b:widget-setting name='displayUrl'>http://3.bp.blogspot.com/-jchmPrrTS6U/YKw_KSXf7-I/AAAAAAAACXA/LXCz7hE3tfsR3u7T5dEwlVC4uQH5_-MugCK4BGAYYCw/s1080/Facebook-capa-2.jpg</b:widget-setting>
+              <b:widget-setting name='displayUrl'>http://3.bp.blogspot.com/-jchmPrrTS6U/YKw_KSXf7-I/AAAAAAAACXA/LXCz7hE3tfsR3u7T5dEwlVC4uQH5_-MugCK4BGAYYCw/s1600/Facebook-capa-2.jpg</b:widget-setting>
               <b:widget-setting name='displayHeight'>1080</b:widget-setting>
               <b:widget-setting name='sectionWidth'>150</b:widget-setting>
               <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
               <b:widget-setting name='displayWidth'>1080</b:widget-setting>
-              <b:widget-setting name='link'>https://www.bluetext.in/</b:widget-setting>
+              <b:widget-setting name='link'/>
               <b:widget-setting name='caption'/>
             </b:widget-settings>
             <b:includable id='main' var='this'>
@@ -3557,7 +3623,7 @@ var noThumbnail = "https://4.bp.blogspot.com/-eALXtf-Ljts/WrQYAbzcPUI/AAAAAAAABj
       <b:include name='image-content'/>
     </b:includable>
           </b:widget>
-          <b:widget id='Image1' locked='false' title='My Website is Safe' type='Image' visible='true'>
+          <b:widget id='Image5' locked='false' title='My Website is Safe' type='Image' visible='true'>
             <b:widget-settings>
               <b:widget-setting name='displayUrl'>https://lh3.googleusercontent.com/-FcQRDQX2ouU/YLqSzohelUI/AAAAAAAACcM/HT3QEBUl7QUFNGEHpayIabG5Zy2TBM_YACNcBGAsYHQ/s150/Selo.png</b:widget-setting>
               <b:widget-setting name='displayHeight'>25</b:widget-setting>
@@ -3575,7 +3641,7 @@ var noThumbnail = "https://4.bp.blogspot.com/-eALXtf-Ljts/WrQYAbzcPUI/AAAAAAAABj
       <b:include name='image-content'/>
     </b:includable>
           </b:widget>
-          <b:widget id='HTML3' locked='false' title='Creative Commons' type='HTML' visible='true'>
+          <b:widget id='HTML7' locked='false' title='Creative Commons' type='HTML' visible='true'>
             <b:widget-settings>
               <b:widget-setting name='content'><![CDATA[<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"></a>]]></b:widget-setting>
             </b:widget-settings>
@@ -3583,7 +3649,7 @@ var noThumbnail = "https://4.bp.blogspot.com/-eALXtf-Ljts/WrQYAbzcPUI/AAAAAAAABj
       <b:include name='html-content'/>
     </b:includable>
           </b:widget>
-          <b:widget id='HTML2' locked='false' title='This Blog is protected by DMCA.com' type='HTML' visible='true'>
+          <b:widget id='HTML8' locked='false' title='This Blog is protected by DMCA.com' type='HTML' visible='true'>
             <b:widget-settings>
               <b:widget-setting name='content'><![CDATA[<a href="//www.dmca.com/Protection/Status.aspx?ID=28fbceac-0445-48d8-b039-3bc0930af66d" target="_blank" title="Check blog Protection Status" class="dmca-badge"> <img src ="//www.dmca.com/Badges/dmca_protected_16_120.png" alt="DMCA.com for Blogger blogs" /></a> <script src="//images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>]]></b:widget-setting>
             </b:widget-settings>
@@ -3599,7 +3665,7 @@ var noThumbnail = "https://4.bp.blogspot.com/-eALXtf-Ljts/WrQYAbzcPUI/AAAAAAAABj
     <!-- Footer Ads -->
     <div class='flex-center' id='footer-ads-wrap'>
       <b:section class='footer-ads container row-x1' id='footer-ads' maxwidgets='1' name='Footer ADS' showaddelement='yes'>
-        <b:widget id='HTML4' locked='false' title='Anuncio do Rodapé' type='HTML' visible='false'>
+        <b:widget id='HTML4' locked='false' title='Ads' type='HTML' visible='true'>
           <b:widget-settings>
             <b:widget-setting name='content'>&lt;script type=&#39;text/javascript&#39;&gt;
 $(document).ready(function() {$(&amp;#39;img#closed&amp;#39;).click(function(){$(&amp;#39;#bl_banner&amp;#39;).hide(90);});});
@@ -3656,17 +3722,19 @@ $(document).ready(function() {$(&amp;#39;img#closed&amp;#39;).click(function(){$
           </b:widget>
           <b:widget id='LinkList103' locked='true' title='Nossas Redes Socias' type='LinkList' visible='true'>
             <b:widget-settings>
-              <b:widget-setting name='link-3'>https://www.reddit.com/user/tulsiramtech</b:widget-setting>
-              <b:widget-setting name='sorting'>NONE</b:widget-setting>
-              <b:widget-setting name='link-4'>https://youtube.com/c/CodeOn</b:widget-setting>
+              <b:widget-setting name='link-5'>https://youtube.com/c/CodeOn</b:widget-setting>
+              <b:widget-setting name='link-3'>https://www.instagram.com/bluetext.in/</b:widget-setting>
+              <b:widget-setting name='link-4'>https://www.reddit.com/user/tulsiramtech</b:widget-setting>
               <b:widget-setting name='text-1'>twitter</b:widget-setting>
-              <b:widget-setting name='link-1'>https://twitter.com/bluetextin</b:widget-setting>
               <b:widget-setting name='text-0'>facebook-f</b:widget-setting>
-              <b:widget-setting name='link-2'>https://www.instagram.com/bluetext.in/</b:widget-setting>
-              <b:widget-setting name='text-3'>reddit</b:widget-setting>
+              <b:widget-setting name='text-3'>instagram</b:widget-setting>
+              <b:widget-setting name='text-2'>pinterest</b:widget-setting>
+              <b:widget-setting name='text-5'>youtube</b:widget-setting>
+              <b:widget-setting name='text-4'>reddit</b:widget-setting>
+              <b:widget-setting name='sorting'>NONE</b:widget-setting>
+              <b:widget-setting name='link-1'>https://twitter.com/bluetextin</b:widget-setting>
+              <b:widget-setting name='link-2'>https://in.pinterest.com/CodeOnYT/</b:widget-setting>
               <b:widget-setting name='link-0'>https://www.facebook.com/BlueTEXT.in</b:widget-setting>
-              <b:widget-setting name='text-2'>instagram</b:widget-setting>
-              <b:widget-setting name='text-4'>youtube</b:widget-setting>
             </b:widget-settings>
             <b:includable id='main' var='this'>
       <b:include name='widget-title'/>
@@ -3696,12 +3764,12 @@ $(document).ready(function() {$(&amp;#39;img#closed&amp;#39;).click(function(){$
           <b:widget id='LinkList104' locked='true' title='Links Extra' type='LinkList' visible='true'>
             <b:widget-settings>
               <b:widget-setting name='sorting'>NONE</b:widget-setting>
-              <b:widget-setting name='text-1'>Contato</b:widget-setting>
+              <b:widget-setting name='text-1'>Contact Us</b:widget-setting>
               <b:widget-setting name='link-1'>https://www.bluetext.in/p/contact.html</b:widget-setting>
               <b:widget-setting name='text-0'>Home</b:widget-setting>
               <b:widget-setting name='link-2'>https://www.bluetext.in/p/about.html</b:widget-setting>
               <b:widget-setting name='link-0'>/</b:widget-setting>
-              <b:widget-setting name='text-2'>Sobre</b:widget-setting>
+              <b:widget-setting name='text-2'>About Us</b:widget-setting>
             </b:widget-settings>
             <b:includable id='main' var='this'>
       <b:include name='widget-title'/>
