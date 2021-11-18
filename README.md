@@ -2,7 +2,7 @@
 The XML template for Blogger/Blogspot: http://bluetext.in/ 
 
 <p align="center">
-  <a href="https://github.com/nschloe/tiptop"><img alt="tiptop" src="https://raw.githubusercontent.com/nschloe/tiptop/gh-pages/tiptop.svg" width="60%"/></a>
+  <a href="https://github.com/nschloe/tiptop"><img alt="tiptop" src="https://raw.githubusercontent.com/CodeOnYT/BlueTEXT.in/main/ScreenShots/DEVICESIMAGE.png" width="60%"/></a>
   <p align="center">Command-line system monitoring.</p>
 </p>
 
