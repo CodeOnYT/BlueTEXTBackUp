@@ -15,6 +15,7 @@ The XML template for Blogger/Blogspot: http://bluetext.in/
 
 [![Discord](https://img.shields.io/static/v1?logo=discord&label=chat&message=on%20discord&color=7289da&style=flat-square)](https://discord.gg/6gNUAaHaPw)
 
+
 <a href="https://rzp.io/l/BlueTEXTin" id="__UPI_BUTTON__" style="background: #ff912f;border: 2px solid #8a4100;padding: 10px;text-decoration: none;color: white;font-size: larger;border-radius: 10px;">Support using UPI</a>
 
 [![Donate](https://img.shields.io/badge/-Donate-yellow?logo=paypal&style=flat-square)](https://paypal.me/BlueTEXTin)

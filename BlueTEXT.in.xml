@@ -4,7 +4,9 @@
 <b:include name='theme-dark-mode'/>
 <head>
   	<meta content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' name='robots'/>
-      <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"/>    
+    F
+  	<meta content='upgrade-insecure-requests' http-equiv='Content-Security-Policy'/> F
+  
     <!-- Google Fonts -->
     <link href='//fonts.googleapis.com/css?family=Poppins:400,400i,600,600i,700,700i' media='all' rel='stylesheet' type='text/css'/>
     <link href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet'/>
@@ -1316,7 +1318,7 @@ a.ads-here{height:45px}
 <b:template-skin><![CDATA[
 html,body#layout #outer-wrapper,body#layout .row{width:auto;padding:0}
 body#layout{position:relative;width:auto;max-width:100%;background-color:#f9f9f9;padding:95px 5px 0;margin:0}
-body#layout:before{content:'SuperMag - v1.4.0';position:absolute;top:0;left:5px;right:5px;height:95px;font-family:Roboto,sans-serif;font-size:23px;color:#0F1618;line-height:95px;text-align:center}
+body#layout:before{content:'BlueTEXT.in - v1.4.0';position:absolute;top:0;left:5px;right:5px;height:95px;font-family:Roboto,sans-serif;font-size:23px;color:#0F1618;line-height:95px;text-align:center}
 body#layout div.section{display:block;background-color:#f1f1f1!important;margin:0 5px 10px!important;padding:16px 16px 18px!important;border-color:#e5e5e5}
 body#layout .no-items.section{display:block}
 body#layout .section h4{font-size:14px;color:#0F1618;text-transform:uppercase;margin:0}
@@ -1349,7 +1351,7 @@ body#layout #main-wrapper{width:67%;padding:0}
 body#layout #sidebar-wrapper{width:33%;padding:0}
 body#layout #custom-ads{display:flex}
 body#layout #custom-ads .section{width:50%}
-body#layout #ify-panel > h4:after{content:' - by Templateify.com'}
+body#layout #ify-panel > h4:after{content:' - by BlueTEXT.in'}
 body#layout .section > h4:after{font-size:12px}
 body#layout #supermag-pro-about-section{overflow:hidden!important}
 body#layout #supermag-pro-about-section .widget{float:left;width:49.5%;margin-right:1%}
@@ -1375,7 +1377,7 @@ body#layout #supermag-pro-about-section > h4:after{content:' - Site Description 
 body#layout #footer-copyright > h4:after{content:' - Custom Credits'}
 body#layout #footer-menu > h4:after{content:' - Footer Links'}
 body#layout #supermag-cookie-ify-section > h4:after{content:' - Advanced Cookie Consent Plugin'}
-body#layout:after{content:'Design by Templateify.com';display:block;font-family:Roboto,sans-serif;font-size:20px;color:#555;line-height:1;text-align:center;visibility:visible;padding:20px 0}
+body#layout:after{content:'Design by BlueTEXT.in';display:block;font-family:Roboto,sans-serif;font-size:20px;color:#555;line-height:1;text-align:center;visibility:visible;padding:20px 0}
 body#layout #hidden-widgets{display:none!important}
 ]]></b:template-skin>
 </b:if>
@@ -2502,15 +2504,15 @@ var noThumbnail = "https://blogger.googleusercontent.com/img/a/AVvXsEj_A0cO-Ej4N
         <div class='container row-x1'>
           <div class='topbar-items'>
             <b:section class='topbar-menu' id='topbar-menu' maxwidgets='1' name='Topbar Menu' showaddelement='yes'>
-              <b:widget id='LinkList105' locked='true' title='navbar' type='LinkList' visible='false'>
+              <b:widget id='LinkList105' locked='true' title='navbar' type='LinkList' visible='true'>
                 <b:widget-settings>
                   <b:widget-setting name='sorting'>NONE</b:widget-setting>
-                  <b:widget-setting name='text-1'>DEVIDO AS PROVAS DA FACULDADE O NOSSO SITE FICARÁ TEMPORARIAMENTE SEM POSTAGENS</b:widget-setting>
-                  <b:widget-setting name='link-1'>#</b:widget-setting>
-                  <b:widget-setting name='text-0'>COMUNICADO:</b:widget-setting>
-                  <b:widget-setting name='link-2'>#</b:widget-setting>
-                  <b:widget-setting name='link-0'>#</b:widget-setting>
-                  <b:widget-setting name='text-2'> ATT. VICENTE NETO - CEO</b:widget-setting>
+                  <b:widget-setting name='text-1'>Visit Our YOUTUBE CHANNEL CODEON</b:widget-setting>
+                  <b:widget-setting name='link-1'>https://youtube.com/c/CodeOn</b:widget-setting>
+                  <b:widget-setting name='text-0'>RESEASE VERSION GITHUB : 1.5</b:widget-setting>
+                  <b:widget-setting name='link-2'>https://twitter.com/Tulsiram_Methre</b:widget-setting>
+                  <b:widget-setting name='link-0'>https://github.com/CodeOnYT/BlueTEXT.in</b:widget-setting>
+                  <b:widget-setting name='text-2'>Founder : TULSIRAM METHRE - CEO (TWITTER LINK)</b:widget-setting>
                 </b:widget-settings>
                 <b:includable id='main' var='this'>
       <b:include name='widget-title'/>
@@ -3396,7 +3398,7 @@ var noThumbnail = "https://blogger.googleusercontent.com/img/a/AVvXsEj_A0cO-Ej4N
           </b:widget>
           <b:widget id='HTML12' locked='false' title='Support US' type='HTML' visible='true'>
             <b:widget-settings>
-              <b:widget-setting name='content'><![CDATA[<a href="https://www.patreon.com/bePatron?u=51702866" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>]]></b:widget-setting>
+              <b:widget-setting name='content'><![CDATA[<a href="https://www.patreon.com/bePatron?u=51702866" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async="async" src="https://c6.patreon.com/becomePatronButton.bundle.js" ></script>]]></b:widget-setting>
             </b:widget-settings>
             <b:includable id='main'>
       <b:include name='html-content'/>
@@ -3412,9 +3414,9 @@ var noThumbnail = "https://blogger.googleusercontent.com/img/a/AVvXsEj_A0cO-Ej4N
           </b:widget>
           <b:widget id='HTML13' locked='false' title='Youtube' type='HTML' visible='true'>
             <b:widget-settings>
-              <b:widget-setting name='content'>&lt;script src=&quot;https://apps.elfsight.com/p/platform.js&quot; defer&gt;&lt;/script&gt;
-&lt;div class=&quot;elfsight-app-1a105341-c219-4ee4-ac21-ad7281c36d6b&quot;&gt;&lt;/div&gt;
-&lt;script src=&#39;https://storage.ko-fi.com/cdn/scripts/overlay-widget.js&#39;&gt;&lt;/script&gt;</b:widget-setting>
+              <b:widget-setting name='content'>&lt;script src=&quot;https://apis.google.com/js/platform.js&quot;&gt;&lt;/script&gt;
+&lt;div class=&quot;g-ytsubscribe&quot; data-channelid=&quot;UCg3cXrDtv6A-yoJYdl2_CSA&quot; data-layout=&quot;full&quot; data-count=&quot;default&quot;&gt;&lt;/div&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/videoseries?list=PLXy1k_uD6jPs77Eh7_ILhlH0PxwW1IrFt&amp;autoplay=1&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</b:widget-setting>
             </b:widget-settings>
             <b:includable id='main'>
       <b:include name='html-content'/>
@@ -3591,7 +3593,7 @@ var noThumbnail = "https://blogger.googleusercontent.com/img/a/AVvXsEj_A0cO-Ej4N
           </b:widget>
           <b:widget id='HTML5' locked='false' title='Facebook page' type='HTML' visible='true'>
             <b:widget-settings>
-              <b:widget-setting name='content'><![CDATA[<iframe src="https%3A%2F%2Fwww.facebook.com%2FBlueTEXT.in&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=161185876079954" width="340" height="130" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>]]></b:widget-setting>
+              <b:widget-setting name='content'><![CDATA[<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FCodeOnYT%2F&tabs=timeline&width=340&height=500&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=true&appId=161185876079954" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>]]></b:widget-setting>
             </b:widget-settings>
             <b:includable id='main'>
       <b:include name='html-content'/>
@@ -3605,13 +3607,13 @@ var noThumbnail = "https://blogger.googleusercontent.com/img/a/AVvXsEj_A0cO-Ej4N
       <b:include name='html-content'/>
     </b:includable>
           </b:widget>
-          <b:widget id='Image2' locked='false' title='Nossas Redes Sociais' type='Image' visible='true'>
+          <b:widget id='Image2' locked='false' title='BlueTEXT.in Social Links' type='Image' visible='true'>
             <b:widget-settings>
-              <b:widget-setting name='displayUrl'>http://3.bp.blogspot.com/-jchmPrrTS6U/YKw_KSXf7-I/AAAAAAAACXA/LXCz7hE3tfsR3u7T5dEwlVC4uQH5_-MugCK4BGAYYCw/s1600/Facebook-capa-2.jpg</b:widget-setting>
-              <b:widget-setting name='displayHeight'>1080</b:widget-setting>
+              <b:widget-setting name='displayUrl'>https://blogger.googleusercontent.com/img/a/AVvXsEg2-LVibvZam2QumH9kKxF2wl0TXzJrMPUw39WNNOUKSPpWh5BA_R6qAKJ1Z1UeK1WtzgJCQjj9UlOVgOxNkLzL0rHuJzFZbvfVMYqK1VFon52WFq3CuYtAROnbnC6j3_Yq-VmPQWvI8FOluZc_XgzuVZC5yPAkJ3Ghorr8VwU-qO_krAd6a4qjXVWo=s1600</b:widget-setting>
+              <b:widget-setting name='displayHeight'>1564</b:widget-setting>
               <b:widget-setting name='sectionWidth'>150</b:widget-setting>
               <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
-              <b:widget-setting name='displayWidth'>1080</b:widget-setting>
+              <b:widget-setting name='displayWidth'>1600</b:widget-setting>
               <b:widget-setting name='link'/>
               <b:widget-setting name='caption'/>
             </b:widget-settings>
