@@ -2,8 +2,8 @@
 The XML template for Blogger/Blogspot: http://bluetext.in/ 
 
 <p align="center">
-  <a href="https://github.com/nschloe/tiptop"><img alt="tiptop" src="https://raw.githubusercontent.com/CodeOnYT/BlueTEXT.in/main/ScreenShots/DEVICESIMAGE.png" width="60%"/></a>
-  <p align="center">Command-line system monitoring.</p>
+  <a href="http://bluetext.in/"><img alt="tiptop" src="https://raw.githubusercontent.com/CodeOnYT/BlueTEXT.in/main/ScreenShots/DEVICESIMAGE.png" width="60%"/></a>
+  <p align="center">BlueTEXT.in XML template.</p>
 </p>
 
 # Blogspot (Blogger) Templates for https://www.bluetext.in/ [![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/web-xaser/blogger-templates) [![License](https://img.shields.io/npm/l/express.svg)](http://web-xaser.mit-license.org/) [![GitHub followers](https://img.shields.io/github/followers/bluetextin?color=%230046bf&logo=BlueTEXT.in&style=plastic)](https://github.com/CodeOnYT)
