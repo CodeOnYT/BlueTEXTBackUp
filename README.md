@@ -57,7 +57,122 @@ Start asking questions...I'll put the frequent ones here.
 
 This project requires a lot of work and often expensive items for testing. Please consider a safe, secure and highly appreciated donation via the PayPal link below or via the Ko-Fi sponsor link at the top of the page.
 
+BlueTEXT.in Premium  
+Premium Blogger Template  
   
+BlueTEXT.in is a Blogger theme (2nd Generation of Materia X) inspired by Google Ma…  
+[Free Download Theme](https://www.blogger.com/#) [View Demo](https://www.blogger.com/#) \* Click the Free Download Theme button to view Pricing Details.  
+  
+  
+![](https://raw.githubusercontent.com/CodeOnYT/BlueTEXT.in/main/ScreenShots/Screenshot.png)  
+  
+Theme Name : BlueTEXT.in Premium Theme Type : Blogger Version : 1.0.7 Terakhir Update : Today License : Universal  
+  
+![](https://raw.githubusercontent.com/CodeOnYT/BlueTEXT.in/main/ScreenShots/Screenshot.png)
+
+  
+BlueTEXT.in is a Blogger theme (2nd Generation of Materia X) inspired by Google Material Design. BlueTEXT.in is very suitable for use in Personal niche Blogs and Magazines (Including, news, travel, hobbies, lifestyle, etc.).  
+  
+![](https://raw.githubusercontent.com/CodeOnYT/BlueTEXT.in/main/ScreenShots/Screenshot.png)  
+  
+Why BlueTEXT.in? There are rarely blogs that have a Material Design theme and have complete features. Therefore, this theme is here so that it can be different from other themes.  
+  
+Easy to customize, you don't have to touch the code. BlueTEXT.in is very easy to customize. Install the theme, set the look you like in the Theme Editor and Materia X is ready to go. If there are problems, we are ready to help you.
+
+  
+  
+![](https://raw.githubusercontent.com/CodeOnYT/BlueTEXT.in/main/ScreenShots/main-color.png)  
+  
+Enjoy easy-to-use features  
+  
+Layout Attractive Layout view. ![](https://raw.githubusercontent.com/CodeOnYT/BlueTEXT.in/main/ScreenShots/layout.png)  
+  
+Theme Designer There are various options in Theme Designer, and you can set them easily.
+
+   
+![](https://raw.githubusercontent.com/CodeOnYT/BlueTEXT.in/main/ScreenShots/post-color.png)  
+  
+Custom Widgets There are many Custom Widgets that you can use.
+
+   
+![](https://raw.githubusercontent.com/CodeOnYT/BlueTEXT.in/main/ScreenShots/block-post.png)  
+  
+Score GT-Metrix GTMetrix final score (Without Using all Custom Widgets)
+
+   
+![](https://raw.githubusercontent.com/CodeOnYT/BlueTEXT.in/main/ScreenShots/gtmetrixs.png)  
+  
+Data Structure Google Structured Data Testing yang Valid.
+
+  
+![](https://raw.githubusercontent.com/CodeOnYT/BlueTEXT.in/main/ScreenShots/structured-data.png)  
+  
+Rich Result Valid and Perfect Rich Result.
+
+   
+![](https://raw.githubusercontent.com/CodeOnYT/BlueTEXT.in/main/ScreenShots/rich-result.png)   
+  
+Overview "BlueTEXT.in Premium" Blogger Template  
+  
+  
+Blogger Templates  
+  
+"BlueTEXT.in Premium" is a template specifically for bloggers.  
+  
+Responsive Layout  
+  
+"BlueTEXT.in Premium" is very responsive, meaning it supports all screen types and sizes.  
+  
+Theme Designer  
+  
+You can adjust the appearance through the Theme Designer in Blogger and "BlueTEXT.in Premium" really supports it.  
+  
+Easy Installation  
+  
+The installation process is easy, you can go directly to the Backup Theme without errors.  
+  
+Multilingual  
+  
+"BlueTEXT.in Premium" can automatically translate the language on the Blog, the available languages ​​are English and Indonesian.  
+  
+Multi-Niche  
+  
+"BlueTEXT.in Premium" can be used for blogs/websites that have various types of niches.  
+  
+Cross-Browser Compatible  
+  
+"BlueTEXT.in Premium" really supports all types of browsers such as Chrome, Firefox, Opera, to Internet Explorer.  
+  
+SEO Friendly  
+  
+The theme you use has an impact on SEO and "BlueTEXT.in Premium" is very SEO friendly.  
+  
+Paket "BlueTEXT.in Premium" Blogger Template  
+  
+  
+Endorsement  
+  
+We provide item support via Whatsapp, Facebook, and Telegram chat as well as Email.  
+  
+Documentation  
+  
+There is complete documentation on the "BlueTEXT.in Premium" Blogger Template that you can use.  
+  
+Update  
+  
+You will get an update of "BlueTEXT.in Premium" Blogger Template (If Available).  
+  
+Affiliate  
+  
+Anyone who Downloads this theme can download it now for free.  
+  
+  
+Get BlueTEXT.in Premium for For Free Please Support us by Donating !.  
+Free Download the "BlueTEXT.in Premium" Theme Now!  
+  
+BlueTEXT.in is a Blogger theme (2nd Generation of Materia X) inspired by Google Ma… [Free Download Now](https://www.blogger.com/#)  
+  
+\*Donations can be made in Local Bank Transfer, Paypal, Dana, Ovo, and Jenius.
 
 ### Topbar Menu
 
