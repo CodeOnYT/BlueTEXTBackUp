@@ -47,12 +47,6 @@ How to install a template?
 
 
 
-
-
-
-
-
-
 ### FAQ
 
 Start asking questions...I'll put the frequent ones here.
@@ -61,7 +55,7 @@ Start asking questions...I'll put the frequent ones here.
 
 ### Donation
 
-This project requires a lot of work and often expensive items for testing. Please consider a safe, secure and highly appreciated donation via the PayPal link below or via the Github sponsor link at the top of the page.
+This project requires a lot of work and often expensive items for testing. Please consider a safe, secure and highly appreciated donation via the PayPal link below or via the Ko-Fi sponsor link at the top of the page.
 
   
 
