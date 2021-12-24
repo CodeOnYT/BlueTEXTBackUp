@@ -3386,6 +3386,22 @@ var noThumbnail = "https://blogger.googleusercontent.com/img/a/AVvXsEj_A0cO-Ej4N
       <!-- Sidebar Wrapper -->
       <aside id='sidebar-wrapper'>
         <b:section class='sidebar supermag-pro-widget-ready' id='sidebar' name='Sidebar' showaddelement='yes'>
+          <b:widget id='HTML6' locked='false' title='Search Amazon for Discounts' type='HTML' visible='true'>
+            <b:widget-settings>
+              <b:widget-setting name='content'><![CDATA[<script type="text/javascript">amzn_assoc_ad_type ="responsive_search_widget"; amzn_assoc_tracking_id ="dopeload-21"; amzn_assoc_marketplace ="amazon"; amzn_assoc_region ="IN"; amzn_assoc_placement =""; amzn_assoc_search_type = "search_widget";amzn_assoc_width ="auto"; amzn_assoc_height ="auto"; amzn_assoc_default_search_category =""; amzn_assoc_default_search_key ="";amzn_assoc_theme ="light"; amzn_assoc_bg_color ="FFFFFF"; </script><script src="//z-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&Operation=GetScript&ID=OneJS&WS=1&Marketplace=IN"></script>]]></b:widget-setting>
+            </b:widget-settings>
+            <b:includable id='main'>
+      <b:include name='html-content'/>
+    </b:includable>
+          </b:widget>
+          <b:widget id='HTML9' locked='false' title='Search Flipkart' type='HTML' visible='true'>
+            <b:widget-settings>
+              <b:widget-setting name='content'><![CDATA[<div data-wrid="WRID-163847558428412278" data-widgettype="searchWidget" data-class="affiliateAdsByFlipkart" height="250" width="300" ></div><script async src="//affiliate.flipkart.com/affiliate/widgets/FKAffiliateWidgets.js"></script>]]></b:widget-setting>
+            </b:widget-settings>
+            <b:includable id='main'>
+      <b:include name='html-content'/>
+    </b:includable>
+          </b:widget>
           <b:widget id='HTML2' locked='false' title='Donate Us' type='HTML' visible='true'>
             <b:widget-settings>
               <b:widget-setting name='content'><![CDATA[<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#2859e0', 'R6R222PAC');kofiwidget2.draw();</script>]]></b:widget-setting>
