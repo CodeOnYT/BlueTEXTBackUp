@@ -1,0 +1,85 @@
+<!--Copy and paste this into the Template Editor and click [Preview]-->
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+
+<head><title><data:blog.pageTitle/></title>
+
+<b:skin><![CDATA[
+/*
+ <Variable
+  name="pgbgcolor" description="Page Background Color"
+  type="color" default="#fff" value="#ffffff">
+ <Variable
+  name="pgtxtcolor" description="Page Text Color"
+  type="color" default="#444" value="#444444">
+*/
+
+body {
+  background:$pgbgcolor;
+  margin:0;
+  color:$pgtxtcolor;
+  font: x-small "Trebuchet MS", Trebuchet, Verdana, Sans-serif;
+  font-size: small;
+  text-align: center;
+  }
+]]></b:skin>
+
+</head>
+
+<body>
+<b:section class='Blog Header' id='sHeader' maxwidgets='1' showaddelement='no'>
+ <b:widget id='wHeader' locked='false' title='Blog Title' type='Header'>
+  <b:includable id='main'>
+   <b:include name="title" data='blog'/>
+  </b:includable>
+
+  <b:includable id='title' var='b'>
+   <data:b.title/><br/>
+  </b:includable>
+  <b:includable id='description'/>
+ </b:widget>
+</b:section>
+
+<b:section class='Blog' id='sBlog' maxwidgets='1' showaddelement='no'>
+
+ <b:widget id='wBlog' locked='false' title='Blog Posts' type='Blog'>
+
+  <b:includable id='main'>
+   <b:include name='Postings'/>
+  </b:includable>
+ 
+  <b:includable id='Postings'>
+   <b:loop values='data:posts' var='p'>
+    <b:include name='post' data='p'/>
+   </b:loop>
+  </b:includable>
+ 
+  <b:includable id='post' var='p'>
+    <data:p.title/><br/>
+    <data:p.dateHeader/><br/>
+    <data:p.id/><br/>
+    <data:p.body/><br/>
+    <data:p.author/><br/>
+    <data:p.timestamp/><br/>
+  </b:includable>
+
+  <b:includable id='nextprev'/>
+  <b:includable id='backlinks'/>
+  <b:includable id='backlinkDeleteIcon'/>
+  <b:includable id='status-message'/>
+  <b:includable id='comment-form'/>
+  <b:includable id='postQuickEdit'/>
+  <b:includable id='commentDeleteIcon'/>
+  <b:includable id='feedLinks'/>
+  <b:includable id='feedLinksBody'/>
+  <b:includable id='comments'/>
+ </b:widget>
+</b:section>
+
+<b:section class='whatever' id='whatever'/>
+
+</body>
+
+</html>
